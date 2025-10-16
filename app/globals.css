@@ -267,7 +267,7 @@ img {
         -webkit-mask: linear-gradient(var(--color-white-300), var(--color-white-300)),
         url("/mask.svg") center/90% no-repeat;
         -webkit-mask-composite: subtract;
-        mask: linear-gradient(#fff, #fff), url("/mask.svg") center/90% no-repeat;
+        mask: linear-gradient(var(--color-white-300), var(--color-white-300)), url("/mask.svg") center/90% no-repeat;
         mask-composite: subtract;
     }
 
